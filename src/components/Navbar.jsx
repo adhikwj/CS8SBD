@@ -10,9 +10,9 @@ const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 return (
 <header className="pt-[7px] fixed top-0 left-0 w-full bg-black text-white z-50 shadow-lg">
     <div className="max-w-6xl mx-auto flex justify-between items-center py-6 px-6 sm:px-12">
-    <div className="flex items-center -ml-20">
+    <div className="flex items-center ml-0 sm:-ml-20">
           <a href="/">
-            <img src={vercelLogo} alt="Vercel Logo" className="w-24 h-auto" /> {/* Adjust size as needed */}
+            <img src={vercelLogo} alt="Vercel Logo" className="w-20 sm:w-24 h-auto" /> {/* Adjust size as needed */}
           </a>
     </div>
     <div className="hidden md:flex space-x-6 -mr-20">

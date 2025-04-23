@@ -1,10 +1,10 @@
 export default function Hero() {
     return (
         <section className="min-h-screen min-w-screen bg-black text-white flex flex-col justify-center items-center px-6 text-center">
-            <h1 className="mt-[-90px] text-5xl md:text-6xl font-bold leading-tight">
+            <h1 className="mt-[-90px] text-gray-500 text-5xl md:text-6xl font-bold leading-tight">
                 Develop. <br className="hidden md:inline" />
-                <span className="text-zinc-400">Preview.</span> <br className="hidden md:inline" />
-                <span className="text-white">Ship.</span>
+                <span className="text-gray-400">Preview.</span> <br className="hidden md:inline" />
+                <span className="text-gray-300">Ship.</span>
             </h1>
         <p className="mt-6 max-w-xl text-lg text-zinc-400">
             Vercel enables developers to build high-performance websites and applications with ease. Fast deploys, global CDN, and seamless collaboration.
