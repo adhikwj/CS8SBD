@@ -37,7 +37,7 @@ export default function DeveloperTools() {
 return (
 <section className="bg-zinc-950 py-16 px-6 text-white">
     <div className="max-w-6xl mx-auto">
-    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Made for developers</h2>
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">By Developers. For developers.</h2>
     <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
         {tools.map(({ icon, title, description }) => (
         <div key={title} className="bg-zinc-900 p-6 rounded-xl shadow hover:shadow-lg transition">

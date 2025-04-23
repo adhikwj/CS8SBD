@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import vercelLogo from "/src/assets/logos/vercel.svg";
 
 export default function Navbar() {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,12 +8,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
 return (
-<header className="fixed top-0 left-0 w-full bg-black text-white z-50 shadow-lg">
+<header className="pt-[7px] fixed top-0 left-0 w-full bg-black text-white z-50 shadow-lg">
     <div className="max-w-6xl mx-auto flex justify-between items-center py-6 px-6 sm:px-12">
-    <div className="flex items-center">
-        <a href="/" className="text-2xl font-bold">Vercel</a>
+    <div className="flex items-center -ml-20">
+          <a href="/">
+            <img src={vercelLogo} alt="Vercel Logo" className="w-24 h-auto" /> {/* Adjust size as needed */}
+          </a>
     </div>
-    <div className="hidden md:flex space-x-6">
+    <div className="hidden md:flex space-x-6 -mr-20">
         <a href="#features" className="hover:text-gray-400">Features</a>
         <a href="#pricing" className="hover:text-gray-400">Pricing</a>
         <a href="#docs" className="hover:text-gray-400">Docs</a>

@@ -27,7 +27,7 @@ export default function UseCases() {
 return (
 <section className="bg-black text-white py-16 px-6">
     <div className="max-w-6xl mx-auto">
-    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Built for every team</h2>
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Built for every team.</h2>
     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
         {useCases.map(({ icon, title, description }) => (
         <div key={title} className="bg-zinc-900 p-6 rounded-xl hover:shadow-lg transition">

@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
-        <section className="min-h-screen bg-black text-white flex flex-col justify-center items-center px-6 text-center">
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+        <section className="min-h-screen min-w-screen bg-black text-white flex flex-col justify-center items-center px-6 text-center">
+            <h1 className="mt-[-90px] text-5xl md:text-6xl font-bold leading-tight">
                 Develop. <br className="hidden md:inline" />
                 <span className="text-zinc-400">Preview.</span> <br className="hidden md:inline" />
                 <span className="text-white">Ship.</span>

@@ -11,7 +11,7 @@ export default function Metrics() {
 return (
     <section className="bg-black text-white py-20 px-6">
     <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-14">Built for speed and scale</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-14">Speed? Scale? No problem.</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
         {metrics.map(({ number, label }) => (
             <div key={label} className="space-y-2">
